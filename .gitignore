@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build output
+dist/
+
+# Editor directories
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Supabase service role key (never commit)
+# .env.local should contain VITE_SUPABASE_SERVICE_ROLE_KEY if needed, but it must NOT be committed
+src/
